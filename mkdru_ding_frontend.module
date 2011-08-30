@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Mkdru ding frontend feature.
+ */
+
+include_once('mkdru_ding_frontend.features.inc');
