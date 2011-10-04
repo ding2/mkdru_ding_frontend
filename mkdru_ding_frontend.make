@@ -17,7 +17,13 @@ projects[mkdru][download][type] = "git"
 projects[mkdru][download][url] = "http://git.drupal.org/project/mkdru.git"
 projects[mkdru][download][revision] = "947e7c9531636f1d171ceade776d1f65aa8f92a9"
 
+projects[mkdru_ding][subdir] = contrib
 projects[mkdru_ding][type] = "module"
 projects[mkdru_ding][download][type] = "git"
 projects[mkdru_ding][download][url] = "git://github.com/indexdata/mkdru_ding.git"
 projects[mkdru_ding][download][branch] = "7.x-1.x"
+
+; Libraries
+projects[pazpar2][type] = "library"
+projects[pazpar2][download][type] = "git"
+projects[pazpar2][download][url] = "git://git.indexdata.com/pazpar2.git"
