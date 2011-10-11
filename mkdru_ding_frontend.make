@@ -6,7 +6,7 @@ projects[ctools][version] = "1.0-rc1"
 projects[ctools][patch][] = "http://drupal.org/files/issues/user_edit_form-p0-format-1184168.patch"
 
 projects[strongarm][subdir] = contrib
-projects[strongarm][version] = 2.0-beta4
+projects[strongarm][version] = 2.0-beta3
 
 projects[mkdru][subdir] = contrib
 ; Pulling out of git for the moment being, 1.1 is broken.
