@@ -15,7 +15,8 @@ projects[mkdru][subdir] = contrib
 projects[mkdru][type] = "module"
 projects[mkdru][download][type] = "git"
 projects[mkdru][download][url] = "http://git.drupal.org/project/mkdru.git"
-projects[mkdru][download][revision] = "947e7c9531636f1d171ceade776d1f65aa8f92a9"
+projects[mkdru][download][revision] = "02b4e03829e5597b3fe0c4e50f6d5a129c9d28a3"
+projects[mkdru][patch][] = "http://drupal.org/files/correct-drupal-t-function.patch"
 
 projects[mkdru_ding][subdir] = contrib
 projects[mkdru_ding][type] = "module"
