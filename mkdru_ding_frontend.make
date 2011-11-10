@@ -17,6 +17,7 @@ projects[mkdru][download][type] = "git"
 projects[mkdru][download][url] = "http://git.drupal.org/project/mkdru.git"
 projects[mkdru][download][revision] = "02b4e03829e5597b3fe0c4e50f6d5a129c9d28a3"
 projects[mkdru][patch][] = "http://drupal.org/files/correct-drupal-t-function.patch"
+projects[mkdru][patch][] = "http://drupal.org/files/selected-facet-disappears-in-ie8-and-below-1337572.patch"
 
 projects[mkdru_ding][subdir] = contrib
 projects[mkdru_ding][type] = "module"
