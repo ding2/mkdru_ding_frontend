@@ -1,0 +1,26 @@
+<?php
+
+/**
+ * Implements hook_install().
+ * Enable mkdru panel page and enable mkdru search tab.
+ */
+function mkdru_ding_frontend_install() {
+  // Enable the universal search tab
+  $search_modules = variable_get('search_active_modules', array());
+  $search_modules['mkdru_ding'] = 'mkdru_ding';
+  variable_set('search_active_modules', $search_modules);
+
+  // Enable the panel page for the universal search
+  variable_set('page_manager_search_disabled_mkdru_ding', FALSE);
+}
+
+/**
+ * Implements hook_uninstall().
+ * Remove mkdru variable and settings.
+ */
+function mkdru_ding_frontend_uninstall() {
+  variable_del('page_manager_search_disabled_mkdru_ding');
+  $search_modules = variable_get('search_active_modules', array());
+  unset($search_modules['mkdru_ding']);
+  variable_set('search_active_modules', $search_modules);
+}
