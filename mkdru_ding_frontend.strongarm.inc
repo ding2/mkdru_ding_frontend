@@ -11,7 +11,7 @@ function mkdru_ding_frontend_strongarm() {
   $export = array();
 
   $strongarm = new stdClass;
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->disabled = TRUE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'mkdru_defaults';
   $strongarm->value = array(
@@ -52,7 +52,7 @@ function mkdru_ding_frontend_strongarm() {
   $export['mkdru_defaults'] = $strongarm;
 
   $strongarm = new stdClass;
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->disabled = TRUE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'mkdru_ding';
   $strongarm->value = array(
